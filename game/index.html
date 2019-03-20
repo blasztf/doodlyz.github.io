@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Game-par</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js" integrity="sha256-6kqpXJdAHgjN0kcTzwynl8QtHF2S534+invNK9BFOWg=" crossorigin="anonymous"></script>
+<!-- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser.min.js" integrity="sha256-6kqpXJdAHgjN0kcTzwynl8QtHF2S534+invNK9BFOWg=" crossorigin="anonymous"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.16.2/phaser-arcade-physics.js" integrity="sha256-vOsRpscVcql1FwkVTIGYR/NOHmkZvNG2JslkcArwGAw=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -11,6 +11,12 @@
       type: Phaser.AUTO,
       width: window.screen.width,
       height: window.screen.height,
+	    physics: {
+				default: 'arcade',
+				arcade: {
+					gravity: { y: 200 }	
+				}
+			},
       scene: {
         preload: preload,
         create: create
