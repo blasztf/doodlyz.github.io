@@ -1,7 +1,30 @@
-<!DOCTYPE html5>
+<!DOCTYPE html>
 <html>
-  <head></head>
+  <head>
+    <title>Lvlz App</title>
+    <link type="text/css" href="css/lovelyz.css" />
+    <script type="text/js" src="js/lovelyz.js"></script>
+  </head>
   <body>
-    <h1>Hello-Lovelinus❤</h1>
+    <div class="lyz-container">
+      <div class="lyz-navigation">
+        <ul class="lyz-nav-items" id="navigation">
+          <li class="lyz-nav-item"><a href=".">Menu</a></li>
+          <li class="lyz-nav-item"><a href=".">Profile</a></li>
+          <li class="lyz-nav-item"><a href=".">Themes</a></li>
+        </ul>
+      </div>
+      <div class="lyz-content" id="content">        
+        <!-- Content will be displayed in here -->
+        <h1>Hello-Lovelinus❤</h1>
+      </div>
+    </div>
+    <script type="text/js">
+      if (main && typeof main === "function")
+      {
+        var contentElement = document.getElementById("content");
+        main(contentElement);
+      }
+    </script>
   </body>
 </html>
