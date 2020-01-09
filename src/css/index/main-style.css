@@ -26,14 +26,14 @@
 -------------------------- */
 
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
-@import 'css/bootstrap.min.css';
-@import 'css/animate.css';
-@import 'css/magnific-popup.css';
-@import 'css/owl.carousel.min.css';
-@import 'css/slick.css';
-@import 'css/font-awesome.min.css';
-@import 'css/themify-icons.css';
-@import 'css/ionicons.min.css';
+@import '/src/css/index/bootstrap.min.css';
+@import '/src/css/index/animate.css';
+@import '/src/css/index/magnific-popup.css';
+@import '/src/css/index/owl.carousel.min.css';
+@import '/src/css/index/slick.css';
+@import '/src/css/index/font-awesome.min.css';
+@import '/src/css/index/themify-icons.css';
+@import '/src/css/index/ionicons.min.css';
 
 /* --------------------------
 :: 1.0 Base CSS Start
