@@ -1,0 +1,12 @@
+{
+"companyName": "Doodlyz",
+"productName": "Lovelyz Lightstick 3D",
+"dataUrl": "358e205a4e5f5b0545369b9ab08176ff.unityweb",
+"wasmCodeUrl": "2fd7ed40abed413bf8786880130ce3ff.unityweb",
+"wasmFrameworkUrl": "57a7668a5d38eae239a33788ed132389.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
